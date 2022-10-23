@@ -1,0 +1,232 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html, body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    margin: auto;
+    max-width: 1300px;
+    padding: 0 20px;
+    overflow: auto;
+}
+.btn-outline{
+    background: transparent;
+    border: 2px solid #ffff;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-top: 125px;
+    border-radius: 20px;
+}
+.padding{
+    padding-top: 25px;
+}
+.li{
+    border: 2px solid #DEEAFF;
+    margin-left: 5px;
+    border-radius: 20px;
+    background-color:#DEEAFF;
+    height: 40px;
+    margin-top: 25px;
+    
+}
+
+.btn-outline:hover{
+    background: #fff;
+    color: #000;
+}
+#navbar .logo{
+    float: left;
+    padding-top: 20px;
+}
+.btn{
+    display: inline-block;
+    font-size: 15px;
+    padding: 15px 40px;
+    letter-spacing: 1px;
+    color: #ffff;
+}
+#navbar a{
+    color: #000;
+}
+
+#navbar img{
+    height: 80px;
+}
+#navbar ul{
+    list-style: none;
+    float: right;
+}
+.list{
+    margin-left: 5px;
+    height: 40px;
+    margin-top: 10px;
+}
+#navbar ul li{
+    float: left;
+}
+#navbar ul li a{
+    display: block;
+    padding: 7px;
+    text-align: center;
+}
+#navbar{
+    overflow: auto;
+    
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#showcase{
+    background: url(../imgs/mifondo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    height: 500px;
+    padding: 100px;
+
+}
+#showcase{
+    margin-bottom: 50px;
+}
+#proyects{
+    padding: 80px 0;
+}
+.proyects-row{
+    display: flex;
+}
+.proyects-row img{
+    width: 100%;
+}
+h2{
+    font-size: 1.8rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-bottom: 50px;
+}
+#about{
+    padding: 80px 0;
+    background: #f9f9f9;
+
+}
+.about-row{
+    display: flex;
+    margin-top: -20px;
+}
+.about-row-experience,
+.about-row-me{
+    width: 50%;
+    padding-left: 50px;
+}
+h4{
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    font-weight: 500;
+}
+p{
+    font-size: 1rem;
+    margin: 10px 0;
+
+}
+#contact{
+    padding: 80px;
+}
+.contact-row{
+    display: flex;
+    
+}
+.contact-row-icon{
+    width: 33%;
+    text-align: center;
+}
+.contact-row-icon img{
+    height: 60px;
+}
+#mainfooter{
+    background-color: #f9f9f9;
+    text-align: center;
+    padding: 30px;
+}
+.contflex{
+    display: flex;
+    width: 30%;
+    display: flex;
+    margin-left: 5%;
+}
+
+.graficoP{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-image: conic-gradient(gray 60%, blue 60%);
+}
+.letrasgrafico{
+    display: flex;
+    margin-left: 30px;
+    
+}
+h3{
+    margin-left: 30px;
+    margin-top: 35px;
+}
+.color{
+    width: 15px;
+    height: 15px;
+    vertical-align: top;
+    background-color: gray;
+    margin-top: 13px;
+    margin-right: 8px;
+}
+.texto{
+    vertical-align: top;
+}
+.two{
+    background-color: blue;
+}
+h4{
+    font-weight: bold;
+}
+.flex{
+    display: flex;
+    margin-top: 20px;
+}
+.graficoI{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-image: conic-gradient(gray 50%, blue 50%);
+}
+.graficoPre{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-image: conic-gradient(gray 40%, blue 40%);
+}
+.graficoAu{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-image: conic-gradient(gray 40%, blue 40%);
+}
+.br{
+    margin-bottom: 40px;
+}
+.graficoW{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-image: conic-gradient(gray 30%, blue 30%);
+}
+.graficoCam{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-image: conic-gradient(gray 65%, blue 65%);
+}
